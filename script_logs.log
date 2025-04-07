@@ -327,3 +327,26 @@
 2025-03-30 22:49:52,527 - INFO - All the files were saved into DB!
 2025-03-30 22:49:52,544 - INFO - Analytical tables were created succesfully!
 2025-03-30 22:49:52,544 - INFO - ETL finished!
+2025-04-07 18:16:43,346 - INFO - Downloading name.basics.tsv.gz...
+2025-04-07 18:16:43,348 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-04-07 18:16:43,606 - DEBUG - https://datasets.imdbws.com:443 "GET /name.basics.tsv.gz HTTP/1.1" 200 282732117
+2025-04-07 18:16:58,129 - INFO - name.basics.tsv.gz downloaded!
+2025-04-07 18:16:58,131 - INFO - Downloading title.akas.tsv.gz...
+2025-04-07 18:16:58,132 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-04-07 18:16:58,242 - DEBUG - https://datasets.imdbws.com:443 "GET /title.akas.tsv.gz HTTP/1.1" 200 449932400
+2025-04-07 18:17:23,268 - INFO - title.akas.tsv.gz downloaded!
+2025-04-07 18:17:23,270 - INFO - Downloading title.basics.tsv.gz...
+2025-04-07 18:17:23,271 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-04-07 18:17:23,396 - DEBUG - https://datasets.imdbws.com:443 "GET /title.basics.tsv.gz HTTP/1.1" 200 204168349
+2025-04-07 18:17:34,657 - INFO - title.basics.tsv.gz downloaded!
+2025-04-07 18:17:34,658 - INFO - Downloading title.crew.tsv.gz...
+2025-04-07 18:17:34,659 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-04-07 18:17:34,752 - DEBUG - https://datasets.imdbws.com:443 "GET /title.crew.tsv.gz HTTP/1.1" 200 75614978
+2025-04-07 18:17:38,669 - INFO - title.crew.tsv.gz downloaded!
+2025-04-07 18:17:38,670 - INFO - Downloading title.episode.tsv.gz...
+2025-04-07 18:17:38,671 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-04-07 18:17:38,759 - DEBUG - https://datasets.imdbws.com:443 "GET /title.episode.tsv.gz HTTP/1.1" 200 49090856
+2025-04-07 18:17:41,321 - INFO - title.episode.tsv.gz downloaded!
+2025-04-07 18:17:41,322 - INFO - Downloading title.principals.tsv.gz...
+2025-04-07 18:17:41,323 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-04-07 18:17:41,416 - DEBUG - https://datasets.imdbws.com:443 "GET /title.principals.tsv.gz HTTP/1.1" 200 710734851
