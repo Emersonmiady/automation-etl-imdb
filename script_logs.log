@@ -14606,3 +14606,57 @@
 2025-12-16 06:20:54,491 - INFO - All the files were saved into DB!
 2025-12-16 06:20:54,500 - INFO - Analytical tables were created succesfully!
 2025-12-16 06:20:54,500 - INFO - ETL finished!
+2025-12-17 06:20:22,176 - INFO - Downloading name.basics.tsv.gz...
+2025-12-17 06:20:22,177 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-12-17 06:20:22,551 - DEBUG - https://datasets.imdbws.com:443 "GET /name.basics.tsv.gz HTTP/1.1" 200 295878412
+2025-12-17 06:20:33,742 - INFO - name.basics.tsv.gz downloaded!
+2025-12-17 06:20:33,744 - INFO - Downloading title.akas.tsv.gz...
+2025-12-17 06:20:33,745 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-12-17 06:20:33,756 - DEBUG - https://datasets.imdbws.com:443 "GET /title.akas.tsv.gz HTTP/1.1" 200 472591474
+2025-12-17 06:20:36,291 - INFO - title.akas.tsv.gz downloaded!
+2025-12-17 06:20:36,294 - INFO - Downloading title.basics.tsv.gz...
+2025-12-17 06:20:36,294 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-12-17 06:20:36,309 - DEBUG - https://datasets.imdbws.com:443 "GET /title.basics.tsv.gz HTTP/1.1" 200 215031383
+2025-12-17 06:20:37,376 - INFO - title.basics.tsv.gz downloaded!
+2025-12-17 06:20:37,377 - INFO - Downloading title.crew.tsv.gz...
+2025-12-17 06:20:37,378 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-12-17 06:20:37,544 - DEBUG - https://datasets.imdbws.com:443 "GET /title.crew.tsv.gz HTTP/1.1" 200 79282138
+2025-12-17 06:20:40,524 - INFO - title.crew.tsv.gz downloaded!
+2025-12-17 06:20:40,525 - INFO - Downloading title.episode.tsv.gz...
+2025-12-17 06:20:40,525 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-12-17 06:20:40,539 - DEBUG - https://datasets.imdbws.com:443 "GET /title.episode.tsv.gz HTTP/1.1" 200 51793166
+2025-12-17 06:20:40,945 - INFO - title.episode.tsv.gz downloaded!
+2025-12-17 06:20:40,945 - INFO - Downloading title.principals.tsv.gz...
+2025-12-17 06:20:40,946 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-12-17 06:20:41,158 - DEBUG - https://datasets.imdbws.com:443 "GET /title.principals.tsv.gz HTTP/1.1" 200 744945889
+2025-12-17 06:21:04,975 - INFO - title.principals.tsv.gz downloaded!
+2025-12-17 06:21:04,979 - INFO - Downloading title.ratings.tsv.gz...
+2025-12-17 06:21:04,979 - DEBUG - Starting new HTTPS connection (1): datasets.imdbws.com:443
+2025-12-17 06:21:04,994 - DEBUG - https://datasets.imdbws.com:443 "GET /title.ratings.tsv.gz HTTP/1.1" 200 8143333
+2025-12-17 06:21:05,062 - INFO - title.ratings.tsv.gz downloaded!
+2025-12-17 06:21:05,063 - INFO - All downloads were concluded!
+2025-12-17 06:21:05,063 - DEBUG - Reading and preprocessing the file name.basics.tsv.gz...
+2025-12-17 06:21:05,071 - DEBUG - Preprocess concluded for name.basics.tsv.gz! File saved on data/preprocessed
+2025-12-17 06:21:05,124 - DEBUG - Reading and preprocessing the file title.akas.tsv.gz...
+2025-12-17 06:21:05,131 - DEBUG - Preprocess concluded for title.akas.tsv.gz! File saved on data/preprocessed
+2025-12-17 06:21:05,217 - DEBUG - Reading and preprocessing the file title.basics.tsv.gz...
+2025-12-17 06:21:05,224 - DEBUG - Preprocess concluded for title.basics.tsv.gz! File saved on data/preprocessed
+2025-12-17 06:21:05,262 - DEBUG - Reading and preprocessing the file title.crew.tsv.gz...
+2025-12-17 06:21:05,266 - DEBUG - Preprocess concluded for title.crew.tsv.gz! File saved on data/preprocessed
+2025-12-17 06:21:05,279 - DEBUG - Reading and preprocessing the file title.episode.tsv.gz...
+2025-12-17 06:21:05,283 - DEBUG - Preprocess concluded for title.episode.tsv.gz! File saved on data/preprocessed
+2025-12-17 06:21:05,292 - DEBUG - Reading and preprocessing the file title.principals.tsv.gz...
+2025-12-17 06:21:05,296 - DEBUG - Preprocess concluded for title.principals.tsv.gz! File saved on data/preprocessed
+2025-12-17 06:21:05,435 - DEBUG - Reading and preprocessing the file title.ratings.tsv.gz...
+2025-12-17 06:21:05,440 - DEBUG - Preprocess concluded for title.ratings.tsv.gz! File saved on data/preprocessed
+2025-12-17 06:21:05,442 - INFO - All the files were preprocessed and downloaded on "preprocessed" directory!
+2025-12-17 06:21:05,449 - INFO - File title.crew.tsv was saved as table title_crew and uploaded into the SQLite DB.
+2025-12-17 06:21:05,455 - INFO - File title.episode.tsv was saved as table title_episode and uploaded into the SQLite DB.
+2025-12-17 06:21:05,461 - INFO - File title.ratings.tsv was saved as table title_ratings and uploaded into the SQLite DB.
+2025-12-17 06:21:05,469 - INFO - File name.basics.tsv was saved as table name_basics and uploaded into the SQLite DB.
+2025-12-17 06:21:05,475 - INFO - File title.principals.tsv was saved as table title_principals and uploaded into the SQLite DB.
+2025-12-17 06:21:05,483 - INFO - File title.akas.tsv was saved as table title_akas and uploaded into the SQLite DB.
+2025-12-17 06:21:05,491 - INFO - File title.basics.tsv was saved as table title_basics and uploaded into the SQLite DB.
+2025-12-17 06:21:05,491 - INFO - All the files were saved into DB!
+2025-12-17 06:21:05,500 - INFO - Analytical tables were created succesfully!
+2025-12-17 06:21:05,500 - INFO - ETL finished!
